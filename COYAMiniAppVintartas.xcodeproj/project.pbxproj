@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ABBD13E62CCAA33F00CCE324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBD13C42CCAA33D00CCE324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBD13CB2CCAA33D00CCE324;
+			remoteInfo = COYAMiniAppVintartas;
+		};
+		ABBD13F02CCAA33F00CCE324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBD13C42CCAA33D00CCE324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBD13CB2CCAA33D00CCE324;
+			remoteInfo = COYAMiniAppVintartas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABBD13CC2CCAA33D00CCE324 /* COYAMiniAppVintartas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COYAMiniAppVintartas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBD13E52CCAA33F00CCE324 /* COYAMiniAppVintartasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COYAMiniAppVintartasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBD13EF2CCAA33F00CCE324 /* COYAMiniAppVintartasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COYAMiniAppVintartasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ABBD13F72CCAA33F00CCE324 /* Exceptions for "COYAMiniAppVintartas" folder in "COYAMiniAppVintartas" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ABBD13CB2CCAA33D00CCE324 /* COYAMiniAppVintartas */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ABBD13CE2CCAA33D00CCE324 /* COYAMiniAppVintartas */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ABBD13F72CCAA33F00CCE324 /* Exceptions for "COYAMiniAppVintartas" folder in "COYAMiniAppVintartas" target */,
+			);
+			path = COYAMiniAppVintartas;
+			sourceTree = "<group>";
+		};
+		ABBD13E82CCAA33F00CCE324 /* COYAMiniAppVintartasTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = COYAMiniAppVintartasTests;
+			sourceTree = "<group>";
+		};
+		ABBD13F22CCAA33F00CCE324 /* COYAMiniAppVintartasUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = COYAMiniAppVintartasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBD13C92CCAA33D00CCE324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBD13E22CCAA33F00CCE324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBD13EC2CCAA33F00CCE324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBD13C32CCAA33D00CCE324 = {
+			isa = PBXGroup;
+			children = (
+				ABBD13CE2CCAA33D00CCE324 /* COYAMiniAppVintartas */,
+				ABBD13E82CCAA33F00CCE324 /* COYAMiniAppVintartasTests */,
+				ABBD13F22CCAA33F00CCE324 /* COYAMiniAppVintartasUITests */,
+				ABBD13CD2CCAA33D00CCE324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBD13CD2CCAA33D00CCE324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBD13CC2CCAA33D00CCE324 /* COYAMiniAppVintartas.app */,
+				ABBD13E52CCAA33F00CCE324 /* COYAMiniAppVintartasTests.xctest */,
+				ABBD13EF2CCAA33F00CCE324 /* COYAMiniAppVintartasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBD13CB2CCAA33D00CCE324 /* COYAMiniAppVintartas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBD13F82CCAA33F00CCE324 /* Build configuration list for PBXNativeTarget "COYAMiniAppVintartas" */;
+			buildPhases = (
+				ABBD13C82CCAA33D00CCE324 /* Sources */,
+				ABBD13C92CCAA33D00CCE324 /* Frameworks */,
+				ABBD13CA2CCAA33D00CCE324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ABBD13CE2CCAA33D00CCE324 /* COYAMiniAppVintartas */,
+			);
+			name = COYAMiniAppVintartas;
+			packageProductDependencies = (
+			);
+			productName = COYAMiniAppVintartas;
+			productReference = ABBD13CC2CCAA33D00CCE324 /* COYAMiniAppVintartas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABBD13E42CCAA33F00CCE324 /* COYAMiniAppVintartasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBD13FD2CCAA33F00CCE324 /* Build configuration list for PBXNativeTarget "COYAMiniAppVintartasTests" */;
+			buildPhases = (
+				ABBD13E12CCAA33F00CCE324 /* Sources */,
+				ABBD13E22CCAA33F00CCE324 /* Frameworks */,
+				ABBD13E32CCAA33F00CCE324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBD13E72CCAA33F00CCE324 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABBD13E82CCAA33F00CCE324 /* COYAMiniAppVintartasTests */,
+			);
+			name = COYAMiniAppVintartasTests;
+			packageProductDependencies = (
+			);
+			productName = COYAMiniAppVintartasTests;
+			productReference = ABBD13E52CCAA33F00CCE324 /* COYAMiniAppVintartasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABBD13EE2CCAA33F00CCE324 /* COYAMiniAppVintartasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBD14002CCAA33F00CCE324 /* Build configuration list for PBXNativeTarget "COYAMiniAppVintartasUITests" */;
+			buildPhases = (
+				ABBD13EB2CCAA33F00CCE324 /* Sources */,
+				ABBD13EC2CCAA33F00CCE324 /* Frameworks */,
+				ABBD13ED2CCAA33F00CCE324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBD13F12CCAA33F00CCE324 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABBD13F22CCAA33F00CCE324 /* COYAMiniAppVintartasUITests */,
+			);
+			name = COYAMiniAppVintartasUITests;
+			packageProductDependencies = (
+			);
+			productName = COYAMiniAppVintartasUITests;
+			productReference = ABBD13EF2CCAA33F00CCE324 /* COYAMiniAppVintartasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBD13C42CCAA33D00CCE324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					ABBD13CB2CCAA33D00CCE324 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ABBD13E42CCAA33F00CCE324 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ABBD13CB2CCAA33D00CCE324;
+					};
+					ABBD13EE2CCAA33F00CCE324 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ABBD13CB2CCAA33D00CCE324;
+					};
+				};
+			};
+			buildConfigurationList = ABBD13C72CCAA33D00CCE324 /* Build configuration list for PBXProject "COYAMiniAppVintartas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABBD13C32CCAA33D00CCE324;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ABBD13CD2CCAA33D00CCE324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBD13CB2CCAA33D00CCE324 /* COYAMiniAppVintartas */,
+				ABBD13E42CCAA33F00CCE324 /* COYAMiniAppVintartasTests */,
+				ABBD13EE2CCAA33F00CCE324 /* COYAMiniAppVintartasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBD13CA2CCAA33D00CCE324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBD13E32CCAA33F00CCE324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBD13ED2CCAA33F00CCE324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBD13C82CCAA33D00CCE324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBD13E12CCAA33F00CCE324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBD13EB2CCAA33F00CCE324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABBD13E72CCAA33F00CCE324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBD13CB2CCAA33D00CCE324 /* COYAMiniAppVintartas */;
+			targetProxy = ABBD13E62CCAA33F00CCE324 /* PBXContainerItemProxy */;
+		};
+		ABBD13F12CCAA33F00CCE324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBD13CB2CCAA33D00CCE324 /* COYAMiniAppVintartas */;
+			targetProxy = ABBD13F02CCAA33F00CCE324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABBD13F92CCAA33F00CCE324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZH5CK49UU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COYAMiniAppVintartas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.COYAMiniAppVintartas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABBD13FA2CCAA33F00CCE324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZH5CK49UU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COYAMiniAppVintartas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.COYAMiniAppVintartas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABBD13FB2CCAA33F00CCE324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABBD13FC2CCAA33F00CCE324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABBD13FE2CCAA33F00CCE324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZH5CK49UU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.COYAMiniAppVintartasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COYAMiniAppVintartas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/COYAMiniAppVintartas";
+			};
+			name = Debug;
+		};
+		ABBD13FF2CCAA33F00CCE324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZH5CK49UU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.COYAMiniAppVintartasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COYAMiniAppVintartas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/COYAMiniAppVintartas";
+			};
+			name = Release;
+		};
+		ABBD14012CCAA33F00CCE324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZH5CK49UU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.COYAMiniAppVintartasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = COYAMiniAppVintartas;
+			};
+			name = Debug;
+		};
+		ABBD14022CCAA33F00CCE324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZH5CK49UU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.COYAMiniAppVintartasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = COYAMiniAppVintartas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBD13C72CCAA33D00CCE324 /* Build configuration list for PBXProject "COYAMiniAppVintartas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBD13FB2CCAA33F00CCE324 /* Debug */,
+				ABBD13FC2CCAA33F00CCE324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBD13F82CCAA33F00CCE324 /* Build configuration list for PBXNativeTarget "COYAMiniAppVintartas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBD13F92CCAA33F00CCE324 /* Debug */,
+				ABBD13FA2CCAA33F00CCE324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBD13FD2CCAA33F00CCE324 /* Build configuration list for PBXNativeTarget "COYAMiniAppVintartasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBD13FE2CCAA33F00CCE324 /* Debug */,
+				ABBD13FF2CCAA33F00CCE324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBD14002CCAA33F00CCE324 /* Build configuration list for PBXNativeTarget "COYAMiniAppVintartasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBD14012CCAA33F00CCE324 /* Debug */,
+				ABBD14022CCAA33F00CCE324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBD13C42CCAA33D00CCE324 /* Project object */;
+}
